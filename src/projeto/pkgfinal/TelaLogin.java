@@ -106,7 +106,6 @@ public class TelaLogin extends javax.swing.JFrame {
         String senhaCorreta = "senha";
         
         if (usuario.equals(usuarioCorreto) && (senha.equals(senhaCorreta))){
-            JOptionPane.showMessageDialog(this,"Acesso permitido");
             new Projeto().setVisible(true);
             this.dispose();
        }else{
